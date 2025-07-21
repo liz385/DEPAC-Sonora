@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEPAC Sonora</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Encabezado -->
+  <header class="bg-blue-800 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">DEPAC Sonora</h1>
+      <nav class="space-x-4">
+        <a href="#deporte" class="hover:underline">Deporte</a>
+        <a href="#arte" class="hover:underline">Arte</a>
+        <a href="#cultura" class="hover:underline">Cultura</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-cover bg-center h-96 flex items-center justify-center text-center" style="background-image: url('https://source.unsplash.com/1600x900/?sonora,art');">
+    <div class="bg-black bg-opacity-50 p-6 rounded">
+      <h2 class="text-4xl text-white font-bold mb-2">Promoviendo el Deporte, el Arte y la Cultura</h2>
+      <p class="text-white text-lg">Transformamos comunidades a través del talento y la pasión sonorense.</p>
+    </div>
+  </section>
+
+  <!-- Secciones -->
+  <main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+
+    <section id="deporte">
+      <h3 class="text-3xl font-bold text-blue-800 mb-4">Deporte</h3>
+      <p class="text-gray-700 mb-4">Impulsamos actividades físicas y deportivas que fomentan la salud, la disciplina y el trabajo en equipo.</p>
+      <ul class="list-disc list-inside text-gray-600">
+        <li>Escuelas deportivas comunitarias</li>
+        <li>Torneos estatales juveniles</li>
+        <li>Promoción del deporte adaptado</li>
+      </ul>
+    </section>
+
+    <section id="arte">
+      <h3 class="text-3xl font-bold text-red-700 mb-4">Arte</h3>
+      <p class="text-gray-700 mb-4">Apoyamos la expresión artística en todas sus formas, desde las artes visuales hasta las escénicas.</p>
+      <ul class="list-disc list-inside text-gray-600">
+        <li>Galerías de arte itinerantes</li>
+        <li>Talleres de pintura y música</li>
+        <li>Festivales juveniles de arte</li>
+      </ul>
+    </section>
+
+    <section id="cultura">
+      <h3 class="text-3xl font-bold text-green-700 mb-4">Cultura</h3>
+      <p class="text-gray-700 mb-4">Preservamos y difundimos el rico patrimonio cultural de Sonora a través de eventos y proyectos comunitarios.</p>
+      <ul class="list-disc list-inside text-gray-600">
+        <li>Cine y literatura regional</li>
+        <li>Rescate de tradiciones indígenas</li>
+        <li>Eventos culturales en plazas públicas</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-gray-100 py-12">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-4">Contáctanos</h3>
+      <p class="text-gray-600 mb-6">¿Quieres colaborar con nosotros o saber más? Escríbenos.</p>
+      <form class="space-y-4 max-w-md mx-auto">
+        <input type="text" placeholder="Nombre" class="w-full border border-gray-300 p-2 rounded" />
+        <input type="email" placeholder="Correo electrónico" class="w-full border border-gray-300 p-2 rounded" />
+        <textarea placeholder="Mensaje" class="w-full border border-gray-300 p-2 rounded h-32"></textarea>
+        <button type="submit" class="bg-blue-800 text-white px-6 py-2 rounded hover:bg-blue-700">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-blue-800 text-white py-6 text-center">
+    <p>&copy; 2025 DEPAC Sonora. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
